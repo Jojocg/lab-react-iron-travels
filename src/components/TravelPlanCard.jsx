@@ -14,7 +14,7 @@ export default function TravelPlanCard({plan, clickToDelete}) {
                 <br /><br />
                 <button className="delete-btn" onClick={() => clickToDelete(plan.id)}>Delete</button>
             </div>
-        </div>
+      </div>
     </>
   );
 }
